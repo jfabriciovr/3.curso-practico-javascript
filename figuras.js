@@ -38,3 +38,20 @@ console.log("El área del triángulo es: " + areaTriangulo + " cm^2");
 console.groupEnd();
 
 //círculo
+console.group("Círculo");
+
+//Radio
+const radioCirculo = 4;
+
+//Diámetro
+const diametroCirculo = radioCirculo * 2;
+
+// PI
+const PI = Math.PI;
+
+
+//Circunferencia
+const perimetroCirculo = diametroCirculo * PI;
+
+
+console.groupEnd();
