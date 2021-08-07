@@ -5,11 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras Geométricas</title>
-    <script src="./figuras.js"></script>
+    
 </head>
 <body>
-    <h1>
-        Figuras Geométricas
-    </h1>
+    <header>
+        <h1>
+            Figuras Geométricas
+        </h1>
+        <p>Este es el primer talle del curso práctico de JavaScript</p>
+    </header>   
+
+    <section>
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+        <form>
+            <label for="InputCuadrado">
+                Escribe cuánto mide cada lado de tu cuadrado:
+            </label>
+            <input id="InputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcula el perímetro</button> 
+            <!--  si no le ponemos type="button", se pone por defecto type="submit" y lo que hace es que cuando se presiona el botón, se borra todo el formulario -->
+            <button type="button" onclick="calcularAreaCuadrado()">Calcula el área</button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcula la Altura de un Triángulo</h2>
+        <form>
+            <label for="InputTriangulo1">
+                Escribe el lado 1
+            </label>
+            <input id="InputTrianguloLado1" type="number">
+            
+            <br>
+            
+            <label for="InputTrianguloLado2">
+                Escribe el lado 2
+            </label>
+            <input id="InputTrianguloLado2" type="number">
+            
+            <br>
+
+            <label for="InputTrianguloBase">
+                Escribe la base
+            </label>
+            <input id="InputTrianguloBase" type="number">
+            <br>
+
+            <button type="button" onclick="calcularAlturaTriangulo()">Calcular la Altura del Trigulo ísósceles</button>
+            
+        </form>
+    </section>
+
+    <script src="./figuras-funciones.js"></script>
 </body>
 </html>
