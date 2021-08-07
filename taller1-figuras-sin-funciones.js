@@ -1,5 +1,9 @@
 console.log("Figuras Geométricas");
-
+/* 
+Este archivo se creó inicialmente para realizar los cálculos de las figuras
+geométricas usando valores fijos y sin funciones. Se puede correr directamente 
+en la consola del navegador.
+*/
 //cuadrado
 console.group("Cuadrado");
 

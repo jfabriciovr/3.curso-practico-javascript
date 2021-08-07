@@ -21,6 +21,7 @@ function areaTriangulo (base, altura){
 function alturaTriangulo(a, b, base){
     if(a == b){
         //return Math.sqrt((a*a) - ((base/2)*(base/2)));
+        // a*a también se puede expresar como a**2
         return Math.sqrt(Math.pow(a,2) - Math.pow(base/2,2));
     }
     else{
